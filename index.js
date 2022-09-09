@@ -125,7 +125,7 @@ function Quiz(qaPairArray) {
 
         let resultHTMLFragment = 
         `<h1>Result<h1>
-        <p id = 'question'>Your Score is ${scores}. Marks in percentage ${percentage}%;`;
+        <p id = 'question'>Your Score is ${scores}. Marks in percentage is ${percentage}%.`;
 
         let quizElement = document.getElementById("quiz");
         quizElement.innerHTML = resultHTMLFragment;
